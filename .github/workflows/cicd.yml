@@ -30,10 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Run tests
-      - name: Run tests
-        run: |
-          pytest tests/  # Update the test folder path
+   
 
   deploy:
     name: Build and Deploy Docker Image

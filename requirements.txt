@@ -1,0 +1,26 @@
+# Flask for web development
+Flask==2.3.3
+
+# GenAI Python client (updated version)
+genai==0.5.0  # Corrected version
+
+google-generativeai==0.1.0
+
+# For LangChain components (SQLDatabaseChain, SQLDatabase, PromptTemplate, LLMChain)
+langchain==0.0.283  # Replace with the correct version you're using
+
+# MySQL Connector
+mysql-connector-python==8.1.0
+
+# PyMySQL
+pymysql==1.0.3
+
+# python-dotenv for environment variables
+python-dotenv==1.0.0
+
+# HuggingFace API for embeddings
+transformers==4.33.2
+huggingface-hub==0.19.0
+
+# Required for HuggingFace Inference API and API calls
+requests==2.31.0
